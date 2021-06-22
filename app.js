@@ -14,8 +14,7 @@ app.post('/', (req, res)=> {
     
     let a = req.body.firstValue;
     let b = req.body.secondValue;
-    console.log(a);
-    console.log(b);
+    
     let c = (a*1) + (b*1);
     console.log(c);
     if(!c){
